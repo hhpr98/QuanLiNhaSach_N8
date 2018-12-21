@@ -33,7 +33,12 @@ namespace QuanLiNhaSach_N8
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show("Đã đăng nhập", "Thông báo");
-            var windows = new Find();
+
+            //var windows = new Find();
+            //windows.Show();
+            //this.Close();
+
+            var windows = new HoaDon();
             windows.Show();
             this.Close();
         }
