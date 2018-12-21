@@ -24,5 +24,28 @@ namespace QuanLiNhaSach_N8
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// Event when click login button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Đã đăng nhập", "Thông báo");
+        }
+
+        /// <summary>
+        /// Contact with admin
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void hplSignIn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxButton button = MessageBoxButton.OK;
+            MessageBoxImage icon = MessageBoxImage.Information;
+            string content = "Facebook\t: fb.com/nguyenhuuhoa.15.04.1998/\nĐiện thoại\t: 0982327118";
+            MessageBox.Show(content, "Thông tin", button, icon);
+        }
     }
 }
