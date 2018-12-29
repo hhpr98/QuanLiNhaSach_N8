@@ -34,3 +34,11 @@ C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLi
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.exe
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.pdb
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\bin\Debug\QuanLiNhaSach_N8.pdb
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.csprojAssemblyReference.cache
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\bin\Debug\EntityFramework.dll
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\bin\Debug\EntityFramework.xml
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DashBoard.g.cs
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DashBoard.baml
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.csproj.CopyComplete
