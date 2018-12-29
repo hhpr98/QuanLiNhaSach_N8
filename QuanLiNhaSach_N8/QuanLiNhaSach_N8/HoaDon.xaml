@@ -8,13 +8,20 @@
         Title="Hóa đơn bán hàng" Height="600" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Canvas>
         <Label Name="lblTitle" Content="HÓA ĐƠN BÁN HÀNG" HorizontalContentAlignment="Center" Height="50"
-               Width="300" Canvas.Top="20" Canvas.Left="200" FontSize="23" FontWeight="Bold" Foreground="Blue">
+               Width="300" Canvas.Top="20" Canvas.Left="250" FontSize="23" FontWeight="Bold" Foreground="Blue">
         </Label>
         <Label Name="lblMaHD" Height="40" Width="150" Content="Mã hóa đơn       : " HorizontalContentAlignment="Left" 
                Canvas.Top="70" Canvas.Left="20" FontSize="17" >
         </Label>
+
+        <Label Name="lblMaNV" Height="40" Width="150" Content="Mã nhân viên       : " HorizontalContentAlignment="Left" 
+               Canvas.Top="70" Canvas.Left="420" FontSize="17" >
+        </Label>
         <Label Name="lblMaKH" Height="40" Width="150" Content="Mã khách hàng  : " HorizontalContentAlignment="Left" 
                Canvas.Top="100" Canvas.Left="20" FontSize="17" >
+        </Label>
+        <Label Name="lblNgay" Height="40" Width="150" Content="Ngày                     : " HorizontalContentAlignment="Left" 
+               Canvas.Top="100" Canvas.Left="420" FontSize="17" >
         </Label>
         <Label Name="lblTenKH" Height="40" Width="150" Content="Tên khách hàng : " HorizontalContentAlignment="Left" 
                Canvas.Top="130" Canvas.Left="20" FontSize="17" >
@@ -23,8 +30,14 @@
         <Label Name="lblMaHD2" Height="40" Width="150" HorizontalContentAlignment="Left" 
                Canvas.Top="70" Canvas.Left="180" FontSize="17" FontWeight="Bold" >HD001
         </Label>
+        <Label Name="lblMaNV2" Height="40" Width="150" HorizontalContentAlignment="Left" 
+               Canvas.Top="70" Canvas.Left="570" FontSize="17" FontWeight="Bold" >NV001
+        </Label>
         <Label Name="lblMaKH2" Height="40" Width="150" HorizontalContentAlignment="Left" 
                Canvas.Top="100" Canvas.Left="180" FontSize="17" FontWeight="Bold">KH001
+        </Label>
+        <Label Name="lblNgay2" Height="40" Width="150" HorizontalContentAlignment="Left" 
+               Canvas.Top="100" Canvas.Left="570" FontSize="17" FontWeight="Bold">01/01/2018
         </Label>
         <Label Name="lblTenKH2" Height="40" Width="150" HorizontalContentAlignment="Left" 
                Canvas.Top="130" Canvas.Left="180" FontSize="17" FontWeight="Bold">Nguyễn Hữu Hòa
@@ -49,7 +62,7 @@
                Canvas.Top="180" Canvas.Left="610" FontSize="17" FontWeight="Bold">Thành tiền
         </Label>
 
-        <ListView Name="itemListView" Canvas.Left="15" Canvas.Top="220" Height="250" Width="760">
+        <ListView Name="itemListView" Canvas.Left="15" Canvas.Top="220" Height="200" Width="760">
 
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -84,8 +97,21 @@
 
         </ListView>
 
-        <Button Name="btnCast" Height="30" Width="100" Canvas.Left="300" Canvas.Top="480" HorizontalContentAlignment="Center" FontSize="17"
-                >_Thanh toán
+        <Label Name="lblTongtien" Height="40" Width="150" HorizontalContentAlignment="Left" 
+                        Canvas.Top="430" Canvas.Left="450" FontSize="17" Content="Tổng tiền      : ">
+        </Label>
+        <Label Name="lblTongtien2" Height="40" Width="150" HorizontalContentAlignment="Left" 
+                        Canvas.Top="430" Canvas.Left="620" FontSize="17" Content="123000 VNĐ" FontWeight="Bold">
+        </Label>
+        <Label Name="lblDiemTichLuy" Height="40" Width="150" HorizontalContentAlignment="Left" 
+                        Canvas.Top="470" Canvas.Left="450" FontSize="17" Content="Điểm tích lũy : ">
+        </Label>
+        <Label Name="lblDiemTichLuy2" Height="40" Width="150" HorizontalContentAlignment="Left" 
+                        Canvas.Top="470" Canvas.Left="620" FontSize="17" Content="1 điểm " FontWeight="Bold">
+        </Label>
+
+        <Button Name="btnReturn" Height="30" Width="100" Canvas.Left="300" Canvas.Top="500" HorizontalContentAlignment="Center" FontSize="17"
+                Click="BtnReturn_Click" Foreground="Red">_Về menu
         </Button>
     </Canvas>
 </Window>

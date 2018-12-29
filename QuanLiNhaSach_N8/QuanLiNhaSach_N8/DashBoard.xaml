@@ -47,7 +47,7 @@
                            Source="/iconFeature/HoaDon.png">
                     </Image>
                     <Button Name="btnHoaDon" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
-                            Click="BtnHoaDon_Click">Xuất hóa đơn
+                            Click="BtnHoaDon_Click">Xem hóa đơn
                     </Button>
                 </Canvas>
             </Border>

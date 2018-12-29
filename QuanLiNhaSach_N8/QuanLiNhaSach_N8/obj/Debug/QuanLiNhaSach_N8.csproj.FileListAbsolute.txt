@@ -42,3 +42,5 @@ C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\bin\Debug\Entity
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DashBoard.g.cs
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DashBoard.baml
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.csproj.CopyComplete
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemHoaDon.g.cs
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemHoaDon.baml

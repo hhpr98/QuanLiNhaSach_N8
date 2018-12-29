@@ -54,7 +54,7 @@ namespace QuanLiNhaSach_N8
         /// <param name="e"></param>
         private void BtnHoaDon_Click(object sender, RoutedEventArgs e)
         {
-            var windows = new HoaDon();
+            var windows = new XemHoaDon();
             windows.Show();
         }
     }
