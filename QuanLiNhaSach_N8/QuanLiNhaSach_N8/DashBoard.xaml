@@ -8,10 +8,14 @@
         Title="DashBoard" Height="600" Width="800" WindowStartupLocation="CenterScreen" Background="LightBlue">
     <Canvas>
 
-        <Label Name="lblTitle1" Height="40" Width="600" Canvas.Left="100" Canvas.Top="50"
+        <Label Name="lblTitle" Height="40" Width="600" Canvas.Left="100" Canvas.Top="50"
                FontSize="23" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Xin chào admin, mời chọn chức năng ">
         </Label>
-        
+
+        <Label Name="lblTitle1" Height="40" Width="600" Canvas.Left="100" Canvas.Top="120" Foreground="Red"
+               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng tác vụ">
+        </Label>
+
         <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="150" Canvas.Left="25">
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
@@ -35,14 +39,6 @@
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
-                </Canvas>
-            </Border>
-            <Border BorderBrush="Black" BorderThickness="1">
-                <Canvas Background="White" Width="148">
-                </Canvas>
-            </Border>
-            <Border BorderBrush="Black" BorderThickness="1">
-                <Canvas Background="White" Width="148">
                     <Image Name="imgHoaDon" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
                            Source="/iconFeature/HoaDon.png">
                     </Image>
@@ -51,6 +47,88 @@
                     </Button>
                 </Canvas>
             </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                    
+                </Canvas>
+            </Border>
         </UniformGrid>
+
+        <Label Name="lblTitle2" Height="40" Width="600" Canvas.Left="100" Canvas.Top="270" Foreground="Red"
+               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng liệt kê">
+        </Label>
+
+        <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="300" Canvas.Left="25">
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                    <Image Name="imgDanhSachTaiKhoan" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/DanhSachTaiKhoan.png">
+                    </Image>
+                    <Button Name="btnDanhSachTaiKhoan" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
+                            >DS tài khoản
+                    </Button>
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                    <Image Name="imgDanhSachKhachHang" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/DanhSachKhachHang.png">
+                    </Image>
+                    <Button Name="btnDanhSachKhachHang" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
+                            >DS khách hàng
+                    </Button>
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                    <Image Name="imgDanhSachSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/DanhSachSach.png">
+                    </Image>
+                    <Button Name="btnDanhSachSach" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
+                            >DS tài khoản
+                    </Button>
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                </Canvas>
+            </Border>
+        </UniformGrid>
+
+        <Label Name="lblTitle3" Height="40" Width="600" Canvas.Left="100" Canvas.Top="420" Foreground="Red"
+               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng thống kê">
+        </Label>
+
+        <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="450" Canvas.Left="25">
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                </Canvas>
+            </Border>
+        </UniformGrid>
+        
     </Canvas>
 </Window>

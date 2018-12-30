@@ -8,8 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("iconfeature/hoadon.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("iconfeature/nhapsach.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("iconfeature/timkiem.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("iconfeature/danhsachkhachhang.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("iconfeature/danhsachsach.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("iconfeature/danhsachtaikhoan.png")]
 
 
