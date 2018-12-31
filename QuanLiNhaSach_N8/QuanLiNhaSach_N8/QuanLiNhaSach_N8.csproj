@@ -94,8 +94,8 @@
     <Compile Include="HoaDon.cs">
       <DependentUpon>BookModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="HoaDon.xaml.cs">
-      <DependentUpon>HoaDon.xaml</DependentUpon>
+    <Compile Include="HoaDonDetailxaml.xaml.cs">
+      <DependentUpon>HoaDonDetailxaml.xaml</DependentUpon>
     </Compile>
     <Compile Include="KhachHang.cs">
       <DependentUpon>BookModel.tt</DependentUpon>
@@ -133,7 +133,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="HoaDon.xaml">
+    <Page Include="HoaDonDetailxaml.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -145,7 +145,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="Find.xaml.cs">
       <DependentUpon>Find.xaml</DependentUpon>
     </Compile>

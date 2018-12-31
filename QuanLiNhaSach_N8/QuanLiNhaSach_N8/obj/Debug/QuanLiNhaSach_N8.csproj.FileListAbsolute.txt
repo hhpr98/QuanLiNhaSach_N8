@@ -16,7 +16,6 @@ C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSac
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\bin\Debug\QuanLiNhaSach_N8.exe
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\bin\Debug\QuanLiNhaSach_N8.exe.config
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\Find.g.cs
-C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\HoaDon.g.cs
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\MainWindow.g.cs
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\Result.g.cs
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\App.g.cs
@@ -24,7 +23,6 @@ C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLi
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8_MarkupCompile.lref
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\App.baml
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\Find.baml
-C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\HoaDon.baml
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\MainWindow.baml
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\Result.baml
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.g.resources
@@ -47,3 +45,5 @@ C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemHoa
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachTaiKhoan.g.cs
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachTaiKhoan.baml
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8_Content.g.cs
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\HoaDonDetailxaml.g.cs
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\HoaDonDetailxaml.baml

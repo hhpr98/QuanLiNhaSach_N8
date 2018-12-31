@@ -24,7 +24,7 @@ namespace QuanLiNhaSach_N8
             InitializeComponent();
         }
 
-        public static List<Book> listbook = new List<Book>();
+        //public static List<Book> listbook = new List<Book>();
 
         public static bool[] check = new bool[3] { false, false, false };
 
@@ -36,9 +36,9 @@ namespace QuanLiNhaSach_N8
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
-            listbook.Add(new Book { name = "Nhập môn lập trình", Author = "KHTN", Year = 2008 });
-            listbook.Add(new Book { name = "Kĩ thuật lập trình", Author = "KHTN", Year = 2008 });
-            listbook.Add(new Book { name = "Tấm cám", Author = "Kim Đồng", Year = 2003 });
+            //listbook.Add(new Book { name = "Nhập môn lập trình", Author = "KHTN", Year = 2008 });
+            //listbook.Add(new Book { name = "Kĩ thuật lập trình", Author = "KHTN", Year = 2008 });
+            //listbook.Add(new Book { name = "Tấm cám", Author = "Kim Đồng", Year = 2003 });
         }
 
         private void cbName_Checked(object sender, RoutedEventArgs e)

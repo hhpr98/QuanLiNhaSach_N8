@@ -26,18 +26,25 @@ namespace QuanLiNhaSach_N8
 
         private void BtnOK_Click(object sender, RoutedEventArgs e)
         {
-            if (txtInput.Text=="HD001") // có mã hóa đơn
-            {
-                var windows = new HoaDon();
-                windows.Show();
-                this.Close();
-            }
-            else // không tìm thấy mã hóa đơn nào
+            var mahd = txtInput.Text;
+
+            var db = new BOOKEntities();
+
+            var hoadon = db.HoaDons.Find(mahd);
+
+            if (hoadon==null) // không tìm thấy mã hóa đơn nào
             {
                 var img = MessageBoxImage.Error;
                 var btn = MessageBoxButton.OK;
                 var msg = "Không tìm thấy mã hóa đơn!";
                 MessageBox.Show(msg, "Thông báo", btn, img);
+            }
+            else // có mã hóa đơn
+            {
+                var windows = new HoaDonDetailxaml();
+                windows.Sender(txtInput.Text); // gửi mã hóa đơn sang form chi tiết hóa đơn
+                windows.Show();
+                //this.Close();
             }
         }
 
@@ -50,5 +57,6 @@ namespace QuanLiNhaSach_N8
         {
             this.Close();
         }
+
     }
 }
