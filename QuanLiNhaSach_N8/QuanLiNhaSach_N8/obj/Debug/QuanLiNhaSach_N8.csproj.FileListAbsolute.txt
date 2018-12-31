@@ -46,3 +46,4 @@ C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemHoa
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemHoaDon.baml
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachTaiKhoan.g.cs
 C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachTaiKhoan.baml
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8_Content.g.cs

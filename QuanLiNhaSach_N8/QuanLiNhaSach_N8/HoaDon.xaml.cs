@@ -19,10 +19,10 @@ namespace QuanLiNhaSach_N8
     /// </summary>
     public partial class HoaDon : Window
     {
-        public HoaDon()
-        {
-            InitializeComponent();
-        }
+        //public HoaDon()
+        //{
+        //    InitializeComponent();
+        //}
 
         class Book
         {
