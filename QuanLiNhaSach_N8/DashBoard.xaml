@@ -79,7 +79,7 @@
                            Source="/iconFeature/DanhSachKhachHang.png">
                     </Image>
                     <Button Name="btnDanhSachKhachHang" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
-                            >DS khách hàng
+                            Click="BtnDanhSachKhachHang_Click">DS khách hàng
                     </Button>
                 </Canvas>
             </Border>

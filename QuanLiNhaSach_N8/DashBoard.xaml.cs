@@ -80,5 +80,11 @@ namespace QuanLiNhaSach_N8
             var windows = new DanhSachSach();
             windows.Show();
         }
+
+        private void BtnDanhSachKhachHang_Click(object sender, RoutedEventArgs e)
+        {
+            var windows = new DanhSachKhachHang();
+            windows.Show();
+        }
     }
 }

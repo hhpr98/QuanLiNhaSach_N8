@@ -89,6 +89,9 @@
     <Compile Include="ChiTietPhieuNhapSach.cs">
       <DependentUpon>BookModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DanhSachKhachHang.xaml.cs">
+      <DependentUpon>DanhSachKhachHang.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DanhSachSach.xaml.cs">
       <DependentUpon>DanhSachSach.xaml</DependentUpon>
     </Compile>
@@ -134,6 +137,10 @@
     <Compile Include="XemTheoNgay.xaml.cs">
       <DependentUpon>XemTheoNgay.xaml</DependentUpon>
     </Compile>
+    <Page Include="DanhSachKhachHang.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DanhSachSach.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
