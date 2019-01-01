@@ -29,15 +29,33 @@ namespace QuanLiNhaSach_N8
             public string MaTK { get; set; }
             public string TenDangNhap { get; set; }
             public string MatKhau { get; set; }
-            public int LoaiTK { get; set; }
+            public string LoaiTK { get; set; }
+            public string color { get; set; }
         }
+
+        public static string vcolor = "White";
+
 
         private List<TK> getItem()
         {
-            var items = new List<TK>() { new TK() {MaTK="TK001",TenDangNhap="admin",MatKhau="123",LoaiTK=0},
-                                         new TK() {MaTK="TK002",TenDangNhap="hieu",MatKhau="hieu123",LoaiTK=1 },
-                                         new TK() {MaTK="TK003",TenDangNhap="hoi",MatKhau="hoi123",LoaiTK=1},
-                                         new TK() {MaTK="TK004",TenDangNhap="huan",MatKhau="huan123",LoaiTK=1} };
+            var items = new List<TK>();
+
+            var db = new BOOKEntities();
+
+            foreach (var index in db.TaiKhoans)
+            {
+                var loai = "";
+                if (index.LoaiTK==0)
+                {
+                    loai = "Quản trị viên";
+                }
+                else
+                {
+                    loai = "Nhân viên";
+                }
+                var item = new TK() { MaTK = index.MaTaiKhoan, TenDangNhap = index.TenDangNhap, MatKhau = index.MatKhau, LoaiTK = loai,color = vcolor };
+                items.Add(item);
+            }
             return items;
         }
 
@@ -49,6 +67,34 @@ namespace QuanLiNhaSach_N8
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             var items = getItem();
+            itemListView.ItemsSource = items;
+        }
+
+        private void BtnReturn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BtnShow_Click(object sender, RoutedEventArgs e)
+        {
+            vcolor = "Black";
+            var items = getItem();
+            for (int i=0;i<items.Count();i++)
+            {
+                items[i].color = vcolor;
+            }
+            itemListView.ItemsSource = items;
+
+        }
+
+        private void BtnHide_Click(object sender, RoutedEventArgs e)
+        {
+            vcolor = "White";
+            var items = getItem();
+            for (int i = 0; i < items.Count(); i++)
+            {
+                items[i].color = vcolor;
+            }
             itemListView.ItemsSource = items;
         }
     }
