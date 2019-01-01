@@ -15,44 +15,39 @@ using System.Windows.Shapes;
 namespace QuanLiNhaSach_N8
 {
     /// <summary>
-    /// Interaction logic for XemHoaDon.xaml
+    /// Interaction logic for XemPhieuNhapSach.xaml
     /// </summary>
-    public partial class XemHoaDon : Window
+    public partial class XemPhieuNhapSach : Window
     {
-        public XemHoaDon()
+        public XemPhieuNhapSach()
         {
             InitializeComponent();
         }
 
         private void BtnOK_Click(object sender, RoutedEventArgs e)
         {
-            var mahd = txtInput.Text;
+            var mapn = txtInput.Text;
 
             var db = new BOOKEntities();
 
-            var hoadon = db.HoaDons.Find(mahd);
+            var hoadon = db.PhieuNhapSaches.Find(mapn);
 
-            if (hoadon==null) // không tìm thấy mã hóa đơn nào
+            if (hoadon == null) // không tìm thấy mã phiếu nhập nào
             {
                 var img = MessageBoxImage.Error;
                 var btn = MessageBoxButton.OK;
-                var msg = "Không tìm thấy mã hóa đơn!";
+                var msg = "Không tìm thấy mã phiếu nhập!";
                 MessageBox.Show(msg, "Thông báo", btn, img);
             }
-            else // có mã hóa đơn
+            else // có mã phiếu nhập
             {
-                var windows = new HoaDonDetailxaml();
-                windows.Sender(txtInput.Text); // gửi mã hóa đơn sang form chi tiết hóa đơn
+                var windows = new PhieuNhapSachDetail();
+                windows.Sender(txtInput.Text); // gửi mã phiếu nhập sang form chi tiết phiếu nhập
                 windows.Show();
                 //this.Close();
             }
         }
 
-        /// <summary>
-        /// Hủy bỏ
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void BtnCancel_Click(object sender, RoutedEventArgs e)
         {
             this.Close();

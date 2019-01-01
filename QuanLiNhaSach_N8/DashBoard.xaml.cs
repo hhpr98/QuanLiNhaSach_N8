@@ -93,5 +93,11 @@ namespace QuanLiNhaSach_N8
             var windows = new DanhSachNhanVien();
             windows.Show();
         }
+
+        private void BtnXemPhieuNhapSach_Click(object sender, RoutedEventArgs e)
+        {
+            var windows = new XemPhieuNhapSach();
+            windows.Show();
+        }
     }
 }

@@ -49,17 +49,28 @@
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
+                    <Image Name="imgNhapSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/NhapSach.png">
+                    </Image>
+                    <Button Name="btnNhapSach" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
+                            >Nhập sách
+                    </Button>
                 </Canvas>
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
-                    
+                    <Image Name="imgXemPhieuNhapSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/XemPhieuNhapSach.png">
+                    </Image>
+                    <Button Name="btnXemPhieuNhapSach" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
+                            Click="BtnXemPhieuNhapSach_Click">Xem phiếu nhập
+                    </Button>
                 </Canvas>
             </Border>
         </UniformGrid>
 
         <Label Name="lblTitle2" Height="40" Width="600" Canvas.Left="100" Canvas.Top="270" Foreground="Red"
-               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng liệt kê">
+               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng thống kê">
         </Label>
 
         <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="300" Canvas.Left="25">
@@ -105,23 +116,24 @@
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
-                </Canvas>
-            </Border>
-        </UniformGrid>
-
-        <Label Name="lblTitle3" Height="40" Width="600" Canvas.Left="100" Canvas.Top="420" Foreground="Red"
-               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng thống kê">
-        </Label>
-
-        <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="450" Canvas.Left="25">
-            <Border BorderBrush="Black" BorderThickness="1">
-                <Canvas Background="White" Width="148">
                     <Image Name="imgTKNgay" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
                            Source="/iconFeature/TKNgay.png">
                     </Image>
                     <Button Name="btnThongKeNgay" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
                             Click="btnThongKeNgay_Click">TK theo ngày
                     </Button>
+                </Canvas>
+            </Border>
+        </UniformGrid>
+
+        <Label Name="lblTitle3" Height="40" Width="600" Canvas.Left="100" Canvas.Top="420" Foreground="Red"
+               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng khác">
+        </Label>
+
+        <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="450" Canvas.Left="25">
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                    
                 </Canvas>
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
