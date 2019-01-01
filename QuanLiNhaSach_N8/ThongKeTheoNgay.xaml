@@ -12,24 +12,24 @@
         <Label Content="Ngày" Canvas.Top="75" Canvas.Left="523" FontSize="17"></Label>
         <Label Name="lblTKNgay" Height="40" Width="150" HorizontalContentAlignment="Left" Canvas.Top="75" Canvas.Left="606" FontSize="17" FontWeight="Bold"></Label>
         <Label Name="lblTitle1" Height="40" Width="50" HorizontalContentAlignment="Center" 
-               Canvas.Top="100" Canvas.Left="20" FontSize="17" FontWeight="Bold">STT
+               Canvas.Top="110" Canvas.Left="20" FontSize="17" FontWeight="Bold">STT
         </Label>
         <Label Name="lblTitle2" Height="40" Width="120" HorizontalContentAlignment="Center" 
-               Canvas.Top="100" Canvas.Left="50" FontSize="17" FontWeight="Bold">Mã sách
+               Canvas.Top="110" Canvas.Left="50" FontSize="17" FontWeight="Bold">Mã sách
         </Label>
         <Label Name="lblTitle3" Height="40" Width="200" HorizontalContentAlignment="Center" 
-               Canvas.Top="100" Canvas.Left="150" FontSize="17" FontWeight="Bold">Tên sách
+               Canvas.Top="110" Canvas.Left="150" FontSize="17" FontWeight="Bold">Tên sách
         </Label>
         <Label Name="lblTitle4" Height="40" Width="100" HorizontalContentAlignment="Left" 
-               Canvas.Top="100" Canvas.Left="380" FontSize="17" FontWeight="Bold">Số lượng
+               Canvas.Top="110" Canvas.Left="380" FontSize="17" FontWeight="Bold">Số lượng
         </Label>
         <Label Name="lblTitle5" Height="40" Width="100" HorizontalContentAlignment="Center" 
-               Canvas.Top="100" Canvas.Left="480" FontSize="17" FontWeight="Bold">Đơn giá
+               Canvas.Top="110" Canvas.Left="480" FontSize="17" FontWeight="Bold">Đơn giá
         </Label>
         <Label Name="lblTitle6" Height="40" Width="100" HorizontalContentAlignment="Center" 
-               Canvas.Top="100" Canvas.Left="610" FontSize="17" FontWeight="Bold">Thành tiền
+               Canvas.Top="110" Canvas.Left="610" FontSize="17" FontWeight="Bold">Thành tiền
         </Label>
-        <ListView Name="itemTKNgayListView" Canvas.Left="10" Canvas.Top="145" Height="200" Width="760">
+        <ListView Name="itemTKNgayListView" Canvas.Left="10" Canvas.Top="160" Height="350" Width="760">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel ScrollViewer.CanContentScroll="True"></StackPanel>

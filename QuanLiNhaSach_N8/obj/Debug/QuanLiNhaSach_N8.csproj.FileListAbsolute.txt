@@ -119,3 +119,7 @@ D:\LTWindows\C#\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\ThongKeTheoNgay.g.cs
 D:\LTWindows\C#\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\ThongKeTheoNgay.baml
 D:\LTWindows\C#\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemTheoNgay.g.cs
 D:\LTWindows\C#\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemTheoNgay.baml
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\ThongKeTheoNgay.g.cs
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemTheoNgay.g.cs
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\ThongKeTheoNgay.baml
+C:\Users\nguyenhuuhoa\Desktop\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemTheoNgay.baml

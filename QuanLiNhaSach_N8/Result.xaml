@@ -5,36 +5,81 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="Find" Height="600" Width="800" WindowStartupLocation="CenterScreen" Background="LightCyan" Loaded="Window_Loaded">
+        Title="Find" Height="600" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Canvas>
-        <Label Name="lblName" Content="Tên" Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="80" Canvas.Top="50" Foreground="Black" FontWeight="Bold">
-        </Label>
-        <Label Name="lblAuthor" Content="Tác giả" Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="230" Canvas.Top="50" Foreground="Black" FontWeight="Bold">
-        </Label>
-        <Label Name="lblYear" Content="Năm xuất bản" Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="380" Canvas.Top="50" Foreground="Black" FontWeight="Bold">
+
+        <Label Name="lblTitle" Content="THÔNG TIN SÁCH CẦN TÌM" HorizontalContentAlignment="Center" Height="50"
+               Width="400" Canvas.Top="20" Canvas.Left="200" FontSize="23" FontWeight="Bold" Foreground="Blue">
         </Label>
 
-        <Label Name="lblRes11" Content=" " Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="80" Canvas.Top="120" Foreground="Black">
+        <Label Name="lblTitle1" Height="40" Width="50" HorizontalContentAlignment="Center" 
+               Canvas.Top="80" Canvas.Left="20" FontSize="17" FontWeight="Bold">STT
         </Label>
-        <Label Name="lblRes12" Content=" " Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="230" Canvas.Top="120" Foreground="Black">
+        <Label Name="lblTitle2" Height="40" Width="180" HorizontalContentAlignment="Center" 
+               Canvas.Top="80" Canvas.Left="50" FontSize="17" FontWeight="Bold">Tên sách
         </Label>
-        <Label Name="lblRes13" Content=" " Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="380" Canvas.Top="120" Foreground="Black" >
+        <Label Name="lblTitle3" Height="40" Width="200" HorizontalContentAlignment="Center" 
+               Canvas.Top="80" Canvas.Left="180" FontSize="17" FontWeight="Bold">Tác giả
+        </Label>
+        <Label Name="lblTitle4" Height="40" Width="100" HorizontalContentAlignment="Left" 
+               Canvas.Top="80" Canvas.Left="350" FontSize="17" FontWeight="Bold">Thể loại
+        </Label>
+        <Label Name="lblTitle5" Height="40" Width="100" HorizontalContentAlignment="Center" 
+               Canvas.Top="80" Canvas.Left="420" FontSize="17" FontWeight="Bold">NXB
+        </Label>
+        <Label Name="lblTitle6" Height="40" Width="100" HorizontalContentAlignment="Center" 
+               Canvas.Top="80" Canvas.Left="500" FontSize="17" FontWeight="Bold">Năm XB
+        </Label>
+        <Label Name="lblTitle7" Height="40" Width="100" HorizontalContentAlignment="Center" 
+               Canvas.Top="80" Canvas.Left="590" FontSize="17" FontWeight="Bold">Giá bán
+        </Label>
+        <Label Name="lblTitle8" Height="40" Width="100" HorizontalContentAlignment="Center" 
+               Canvas.Top="80" Canvas.Left="680" FontSize="17" FontWeight="Bold">Số lượng
         </Label>
 
-        <Label Name="lblRes21" Content="" Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="80" Canvas.Top="170" Foreground="Black">
-        </Label>
-        <Label Name="lblRes22" Content=" " Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="230" Canvas.Top="170" Foreground="Black">
-        </Label>
-        <Label Name="lblRes23" Content=" " Height="40" Width="150" FontSize="20"
-               HorizontalContentAlignment="Left" Canvas.Left="380" Canvas.Top="170" Foreground="Black">
-        </Label>
+        <ListView Name="itemListView" Canvas.Left="15" Canvas.Top="120" Height="350" Width="760">
+
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel ScrollViewer.CanContentScroll="True"></StackPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Canvas Height="50" Width="700">
+                        <Label Name="txt1" Height="40" Width="50" HorizontalContentAlignment="Center" 
+                        Canvas.Top="10" Canvas.Left="0" FontSize="17" Content="{Binding STT}">
+                        </Label>
+                        <Label Name="txt2" Height="40" Width="180" HorizontalContentAlignment="Center" 
+                        Canvas.Top="10" Canvas.Left="30" FontSize="17" Content="{Binding TenSach}">
+                        </Label>
+                        <Label Name="txt3" Height="40" Width="100" HorizontalContentAlignment="Left" 
+                        Canvas.Top="10" Canvas.Left="220" FontSize="17" Content="{Binding TacGia}">
+                        </Label>
+                        <Label Name="txt4" Height="40" Width="100" HorizontalContentAlignment="Left" 
+                        Canvas.Top="10" Canvas.Left="320" FontSize="17" Content="{Binding TheLoai}">
+                        </Label>
+                        <Label Name="txt5" Height="40" Width="70" HorizontalContentAlignment="Left" 
+                        Canvas.Top="10" Canvas.Left="420" FontSize="17" Content="{Binding NXB}">
+                        </Label>
+                        <Label Name="txt6" Height="40" Width="50" HorizontalContentAlignment="Left" 
+                        Canvas.Top="10" Canvas.Left="500" FontSize="17" Content="{Binding NamXB}">
+                        </Label>
+                        <Label Name="txt7" Height="40" Width="100" HorizontalContentAlignment="Left" 
+                        Canvas.Top="10" Canvas.Left="585" FontSize="17" Content="{Binding GiaBan}">
+                        </Label>
+                        <Label Name="txt8" Height="40" Width="50" HorizontalContentAlignment="Left" 
+                        Canvas.Top="10" Canvas.Left="680" FontSize="17" Content="{Binding SoLuong}">
+                        </Label>
+                    </Canvas>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <Button Name="btnReturn" Height="30" Width="100" Canvas.Left="300" Canvas.Top="500" HorizontalContentAlignment="Center" FontSize="17"
+                Click="BtnReturn_Click" Foreground="Red">_Thoát
+        </Button>
     </Canvas>
 </Window>

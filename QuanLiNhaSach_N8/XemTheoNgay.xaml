@@ -8,10 +8,10 @@
         Title="XemTheoNgay" Height="600" Width="800" WindowStartupLocation="CenterScreen">
     <Canvas>
         <Label Content="THỐNG KÊ THEO NGÀY" HorizontalContentAlignment="Center" Height="50"
-               Width="300" FontSize="23" FontWeight="Bold" Foreground="Blue" Canvas.Left="250" Canvas.Top="20" ></Label>
-        <Label Content="Xin mời nhập ngày" Canvas.Left="220" Canvas.Top="70" FontSize="15" FontWeight="Bold" Foreground="BlueViolet"></Label>
+               Width="300" FontSize="23" FontWeight="Bold" Foreground="Blue" Canvas.Left="212" Canvas.Top="20" ></Label>
+        <Label Content="Xin mời nhập ngày" Canvas.Left="220" Canvas.Top="90" FontSize="15" FontWeight="Bold" Foreground="BlueViolet"></Label>
         <Button Content="Thống kê" Name="TKNgay" Width="70" Height="30" Click="TKNgay_Click" Canvas.Left="250" Margin="0" Canvas.Top="171"></Button>
         <Button Content="Thoát" Name="ThoatTr" Click="ThoatTr_Click" Canvas.Left="426" Margin="0" Canvas.Top="171" Height="30"></Button>
-        <DatePicker Name="pickerNgay" Canvas.Left="404" Canvas.Top="70"/>
+        <DatePicker Name="pickerNgay" Canvas.Left="404" Canvas.Top="90"/>
     </Canvas>
 </Window>

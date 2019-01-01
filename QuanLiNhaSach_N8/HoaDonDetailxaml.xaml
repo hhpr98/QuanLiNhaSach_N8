@@ -111,7 +111,7 @@
         </Label>
 
         <Button Name="btnReturn" Height="30" Width="100" Canvas.Left="300" Canvas.Top="500" HorizontalContentAlignment="Center" FontSize="17"
-                Click="BtnReturn_Click" Foreground="Red">_Về menu
+                Click="BtnReturn_Click" Foreground="Red">_Thoát
         </Button>
     </Canvas>
 </Window>
