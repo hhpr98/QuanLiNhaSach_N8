@@ -89,7 +89,7 @@
                            Source="/iconFeature/DanhSachSach.png">
                     </Image>
                     <Button Name="btnDanhSachSach" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
-                            >DS sách
+                            Click="BtnDanhSachSach_Click">DS sách
                     </Button>
                 </Canvas>
             </Border>

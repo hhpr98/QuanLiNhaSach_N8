@@ -161,3 +161,5 @@ C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.csproj.CoreC
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.csproj.CopyComplete
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.exe
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\QuanLiNhaSach_N8.pdb
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachSach.g.cs
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachSach.baml

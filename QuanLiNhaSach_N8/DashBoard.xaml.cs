@@ -74,5 +74,11 @@ namespace QuanLiNhaSach_N8
 			var windows = new XemTheoNgay();
 			windows.Show();
 		}
-	}
+
+        private void BtnDanhSachSach_Click(object sender, RoutedEventArgs e)
+        {
+            var windows = new DanhSachSach();
+            windows.Show();
+        }
+    }
 }
