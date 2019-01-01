@@ -167,3 +167,5 @@ C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachKhachHang.g.cs
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachKhachHang.baml
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachNhanVien.g.cs
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DanhSachNhanVien.baml
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\ThemSach.g.cs
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\ThemSach.baml

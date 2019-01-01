@@ -31,9 +31,10 @@ namespace QuanLiNhaSach_N8
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnNhapSach_Click(object sender, RoutedEventArgs e)
+        private void BtnThemSach_Click(object sender, RoutedEventArgs e)
         {
-            // do something
+            var windows = new ThemSach();
+            windows.Show();
         }
 
         /// <summary>

@@ -19,11 +19,11 @@
         <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="150" Canvas.Left="25">
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
-                    <Image Name="imgNhapSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
-                           Source="/iconFeature/NhapSach.png">
+                    <Image Name="imgThemSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/ThemSach.png">
                     </Image>
-                    <Button Name="btnNhapSach" Height="25" Width="68" Canvas.Top="50" Canvas.Left="30"
-                            Click="BtnNhapSach_Click">Thêm sách
+                    <Button Name="btnThemSach" Height="25" Width="68" Canvas.Top="50" Canvas.Left="30"
+                            Click="BtnThemSach_Click">Thêm sách
                     </Button>
                 </Canvas>
             </Border>

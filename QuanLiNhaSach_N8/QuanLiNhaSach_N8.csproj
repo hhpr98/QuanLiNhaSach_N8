@@ -131,6 +131,9 @@
     <Compile Include="TaiKhoan.cs">
       <DependentUpon>BookModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="ThemSach.xaml.cs">
+      <DependentUpon>ThemSach.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ThongKeTheoNgay.xaml.cs">
       <DependentUpon>ThongKeTheoNgay.xaml</DependentUpon>
     </Compile>
@@ -184,6 +187,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Result.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ThemSach.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -249,7 +256,7 @@
     <Resource Include="iconFeature\HoaDon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="iconFeature\NhapSach.png">
+    <Resource Include="iconFeature\ThemSach.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="iconFeature\TimKiem.png">
