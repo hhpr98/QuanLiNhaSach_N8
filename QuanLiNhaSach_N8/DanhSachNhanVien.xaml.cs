@@ -15,33 +15,34 @@ using System.Windows.Shapes;
 namespace QuanLiNhaSach_N8
 {
     /// <summary>
-    /// Interaction logic for DanhSachKhachHang.xaml
+    /// Interaction logic for DanhSachNhanVien.xaml
     /// </summary>
-    public partial class DanhSachKhachHang : Window
+    public partial class DanhSachNhanVien : Window
     {
-        public DanhSachKhachHang()
+        public DanhSachNhanVien()
         {
             InitializeComponent();
         }
 
-        class KhachHang
+
+        class NhanVien
         {
-            public string MaKH { get; set; }
-            public string TenKH { get; set; }
-            public string CMND { get; set; }
+            public string MaNV { get; set; }
+            public string TenNV { get; set; }
+            public DateTime NgaySinh { get; set; }
+            public string DiaChi { get; set; }
             public string SoDienThoai { get; set; }
-            public int DiemTichLuy { get; set; }
         }
 
-        private List<KhachHang> getItem()
+        private List<NhanVien> getItem()
         {
-            var items = new List<KhachHang>();
+            var items = new List<NhanVien>();
 
             var db = new BOOKEntities();
 
-            foreach (var index in db.KhachHangs)
+            foreach (var index in db.NhanViens)
             {
-                var item = new KhachHang() { MaKH=index.MaKhachHang,TenKH=index.TenKhachHang,CMND=index.CMND,SoDienThoai=index.SoDienThoai,DiemTichLuy=(int)index.DiemTichLuy };
+                var item = new NhanVien() {MaNV=index.MaNhanVien,TenNV=index.TenNhanVien,NgaySinh=(DateTime)index.NgaySinh,DiaChi=index.DiaChi,SoDienThoai=index.SoDienThoai };
                 items.Add(item);
             }
 

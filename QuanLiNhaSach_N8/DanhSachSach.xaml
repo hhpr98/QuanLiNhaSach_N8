@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="DanhSachSach" Height="600" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        Title="Danh sách Sách" Height="600" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Canvas>
         <Label Name="lblTitle" Content="DANH SÁCH SÁCH" HorizontalContentAlignment="Center" Height="50"
                Width="400" Canvas.Top="20" Canvas.Left="200" FontSize="23" FontWeight="Bold" Foreground="Blue">
@@ -78,7 +78,7 @@
         </ListView>
 
         <Button Name="btnReturn" Height="30" Width="100" Canvas.Left="300" Canvas.Top="500" HorizontalContentAlignment="Center" FontSize="17"
-                Click="BtnReturn_Click" Foreground="Red">_Thoát
+                Click="BtnReturn_Click" Foreground="Red">_Về menu
         </Button>
     </Canvas>
 </Window>

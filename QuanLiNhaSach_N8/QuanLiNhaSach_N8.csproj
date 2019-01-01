@@ -92,6 +92,9 @@
     <Compile Include="DanhSachKhachHang.xaml.cs">
       <DependentUpon>DanhSachKhachHang.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DanhSachNhanVien.xaml.cs">
+      <DependentUpon>DanhSachNhanVien.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DanhSachSach.xaml.cs">
       <DependentUpon>DanhSachSach.xaml</DependentUpon>
     </Compile>
@@ -138,6 +141,10 @@
       <DependentUpon>XemTheoNgay.xaml</DependentUpon>
     </Compile>
     <Page Include="DanhSachKhachHang.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DanhSachNhanVien.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -274,6 +281,7 @@
       <DependentUpon>BookModel.edmx</DependentUpon>
       <LastGenOutput>BookModel.cs</LastGenOutput>
     </Content>
+    <Resource Include="iconFeature\DanhSachNhanVien.png" />
     <Resource Include="image\ICON.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

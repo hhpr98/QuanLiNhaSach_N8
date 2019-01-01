@@ -95,6 +95,12 @@
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
+                    <Image Name="imgDanhSachNhanVien" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/DanhSachNhanVien.png">
+                    </Image>
+                    <Button Name="btnDanhSachNhanVien" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
+                            Click="BtnDanhSachNhanVien_Click">DS nhân viên
+                    </Button>
                 </Canvas>
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
