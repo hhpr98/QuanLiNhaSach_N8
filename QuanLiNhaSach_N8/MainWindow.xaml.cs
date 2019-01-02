@@ -25,6 +25,9 @@ namespace QuanLiNhaSach_N8
             InitializeComponent();
         }
 
+        public static string tendangnhap;
+        public static string manv;
+
         /// <summary>
         /// Event when click login button
         /// </summary>
@@ -66,6 +69,8 @@ namespace QuanLiNhaSach_N8
                     else // đúng mật khẩu
                     {
                         flags = false;
+                        tendangnhap = txtUsername.Text;
+                        manv = "";
                         var windows = new DashBoard();
                         windows.Show();
                         this.Close();
@@ -98,6 +103,9 @@ namespace QuanLiNhaSach_N8
                             flags = false;
                             if (user.MatKhau == pass_text) // đúng mật khẩu
                             {
+                                tendangnhap = txtUsername.Text;
+                                manv = user.MaNhanVien;
+
                                 var windows = new DashBoard();
                                 windows.Show();
                                 this.Close();

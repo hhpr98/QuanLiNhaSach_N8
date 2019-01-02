@@ -75,7 +75,14 @@ namespace QuanLiNhaSach_N8
 
             mapn = s;
             NgayNhap = DateTime.Now;
-            manv = "NV001";
+            if (MainWindow.manv == "")
+            {
+                manv = "NV001";
+            }
+            else
+            {
+                manv = MainWindow.manv;
+            }
 
             lbl11.Content = s;
             lbl21.Content = NgayNhap;

@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="DashBoard (admin)" Height="600" Width="800" WindowStartupLocation="CenterScreen" Background="LightBlue">
+        Title="DashBoard" Height="600" Width="800" WindowStartupLocation="CenterScreen" Background="LightBlue" Loaded="Window_Loaded">
     <Canvas>
 
         <Label Name="lblTitle" Height="40" Width="600" Canvas.Left="100" Canvas.Top="50"
-               FontSize="23" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Xin chào admin, mời chọn chức năng ">
+               FontSize="23" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Xin chào admin, mời chọn chức năng">
         </Label>
 
         <Label Name="lblTitle1" Height="40" Width="600" Canvas.Left="100" Canvas.Top="120" Foreground="Red"

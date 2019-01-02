@@ -33,8 +33,18 @@ namespace QuanLiNhaSach_N8
         /// <param name="e"></param>
         private void BtnThemSach_Click(object sender, RoutedEventArgs e)
         {
-            var windows = new ThemSach();
-            windows.Show();
+            if (MainWindow.tendangnhap=="admin")
+            {
+                var windows = new ThemSach();
+                windows.Show();
+            }
+            else
+            {
+                MessageBoxButton button = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Error;
+                string content = "Lỗi : Chức năng thêm sách chỉ dành cho admin";
+                MessageBox.Show(content, "Lỗi!", button, icon);
+            }
         }
 
         /// <summary>
@@ -66,15 +76,35 @@ namespace QuanLiNhaSach_N8
         /// <param name="e"></param>
         private void BtnDanhSachTaiKhoan_Click(object sender, RoutedEventArgs e)
         {
-            var windows = new DanhSachTaiKhoan();
-            windows.Show();
+            if (MainWindow.tendangnhap == "admin")
+            {
+                var windows = new DanhSachTaiKhoan();
+                windows.Show();
+            }
+            else
+            {
+                MessageBoxButton button = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Error;
+                string content = "Lỗi : Chức năng xem danh sách tài khoản chỉ dành cho admin";
+                MessageBox.Show(content, "Lỗi!", button, icon);
+            }
         }
 
 		private void btnThongKeNgay_Click(object sender, RoutedEventArgs e)
 		{
-			var windows = new XemTheoNgay();
-			windows.Show();
-		}
+            if (MainWindow.tendangnhap == "admin")
+            {
+                var windows = new XemTheoNgay();
+                windows.Show();
+            }
+            else
+            {
+                MessageBoxButton button = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Error;
+                string content = "Lỗi : Chức năng thống kê chỉ dành cho admin";
+                MessageBox.Show(content, "Lỗi!", button, icon);
+            }
+        }
 
         private void BtnDanhSachSach_Click(object sender, RoutedEventArgs e)
         {
@@ -90,8 +120,18 @@ namespace QuanLiNhaSach_N8
 
         private void BtnDanhSachNhanVien_Click(object sender, RoutedEventArgs e)
         {
-            var windows = new DanhSachNhanVien();
-            windows.Show();
+            if (MainWindow.tendangnhap == "admin")
+            {
+                var windows = new DanhSachNhanVien();
+                windows.Show();
+            }
+            else
+            {
+                MessageBoxButton button = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Error;
+                string content = "Lỗi : Chức năng xem danh sách nhân viên chỉ dành cho admin";
+                MessageBox.Show(content, "Lỗi!", button, icon);
+            }
         }
 
         private void BtnXemPhieuNhapSach_Click(object sender, RoutedEventArgs e)
@@ -110,6 +150,11 @@ namespace QuanLiNhaSach_N8
         {
             var windows = new BanSach();
             windows.Show();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            lblTitle.Content = "Xin chào " + MainWindow.tendangnhap + ", mời chọn chức năng";
         }
     }
 }
