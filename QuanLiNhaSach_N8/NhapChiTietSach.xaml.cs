@@ -105,12 +105,14 @@ namespace QuanLiNhaSach_N8
 
                     // Thêm vào database
                     var soluong = int.Parse(txt2.Text);
+                    var update_soLuongSach = db.Saches.Find(txt1.Text); // update số lượng khi nhập
+                    update_soLuongSach.SoLuong += soluong;
                     var gianhap = int.Parse(txt3.Text);
                     var tongtien = soluong * gianhap;
+                    var update_tongTien = db.PhieuNhapSaches.Find(mapn); // update tổng tiền của PN sách
+                    update_tongTien.TongTien += tongtien;
                     var bookToAdd = new ChiTietPhieuNhapSach() { MaChiTietPhieuNhapSach = s, MaPhieuNhapSach = mapn, MaSach = txt1.Text, SoLuong = soluong, GiaNhap = gianhap };
                     db.ChiTietPhieuNhapSaches.Add(bookToAdd);
-                    var update_tongTien = db.PhieuNhapSaches.Find(mapn);
-                    update_tongTien.TongTien += tongtien;
                     db.SaveChanges();
 
                     var btn = MessageBoxButton.OK;
