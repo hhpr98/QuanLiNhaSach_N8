@@ -105,5 +105,11 @@ namespace QuanLiNhaSach_N8
             var windows = new NhapSach();
             windows.Show();
         }
+
+        private void BtnBanSach_Click(object sender, RoutedEventArgs e)
+        {
+            var windows = new BanSach();
+            windows.Show();
+        }
     }
 }

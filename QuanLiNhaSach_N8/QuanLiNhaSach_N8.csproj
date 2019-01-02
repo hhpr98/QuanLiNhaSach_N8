@@ -68,6 +68,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BanChiTietSach.xaml.cs">
+      <DependentUpon>BanChiTietSach.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BanSach.xaml.cs">
+      <DependentUpon>BanSach.xaml</DependentUpon>
+    </Compile>
     <Compile Include="BookModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -155,6 +161,14 @@
     <Compile Include="XemTheoNgay.xaml.cs">
       <DependentUpon>XemTheoNgay.xaml</DependentUpon>
     </Compile>
+    <Page Include="BanChiTietSach.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BanSach.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DanhSachKhachHang.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -316,6 +330,9 @@
       <DependentUpon>BookModel.edmx</DependentUpon>
       <LastGenOutput>BookModel.cs</LastGenOutput>
     </Content>
+    <Resource Include="iconFeature\BanSach.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="iconFeature\NhapSach.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

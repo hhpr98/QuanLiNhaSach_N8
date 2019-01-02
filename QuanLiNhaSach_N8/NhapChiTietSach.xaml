@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="NhapChiTietSach" Height="600" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Chi tiết phiếu nhập" Height="600" Width="800" WindowStartupLocation="CenterScreen">
     <Canvas>
 
         <Label Name="lblTitle" Content="Vui lòng thêm sách vào phiếu nhập, bấm Thêm để tiếp tục thêm" HorizontalContentAlignment="Center" Height="50"
