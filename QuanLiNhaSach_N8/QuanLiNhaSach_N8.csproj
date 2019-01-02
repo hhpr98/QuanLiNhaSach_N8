@@ -116,6 +116,12 @@
     <Compile Include="NhanVien.cs">
       <DependentUpon>BookModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="NhapChiTietSach.xaml.cs">
+      <DependentUpon>NhapChiTietSach.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NhapSach.xaml.cs">
+      <DependentUpon>NhapSach.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PhieuNhapSach.cs">
       <DependentUpon>BookModel.tt</DependentUpon>
     </Compile>
@@ -192,6 +198,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="NhapChiTietSach.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NhapSach.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PhieuNhapSachDetail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -173,3 +173,7 @@ C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\PhieuNhapSachDetail.g.cs
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemPhieuNhapSach.g.cs
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\PhieuNhapSachDetail.baml
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\XemPhieuNhapSach.baml
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\NhapChiTietSach.g.cs
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\NhapSach.g.cs
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\NhapChiTietSach.baml
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\NhapSach.baml
