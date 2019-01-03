@@ -28,7 +28,7 @@
             <Label Name="lblUserName" Height="40" Width="150" Foreground="Black" FontSize="17" Canvas.Top="30" Canvas.Left="50"
                Target="{Binding ElementName=txtUsername}">_Tên đăng nhập
             </Label>
-            <TextBox Name="txtUsername" Height="30" Width="200" Background="LightCyan" Foreground="LightGray"
+            <TextBox Name="txtUsername" Height="30" Width="200" Background="LightCyan" Foreground="Gray"
                  FontSize="17" Canvas.Top="30" Canvas.Left="200" GotFocus="txtUsername_GotFocus">Nhập tên đăng nhập tại đây
             </TextBox>
             <Image Name="imgIconUser" Source="image/icons8_User_Menu_Male_96px.png" Height="40" Width="40" Canvas.Top="30" Canvas.Left="10"></Image>
