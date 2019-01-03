@@ -13,7 +13,7 @@
         </Label>
 
         <Label Name="lblTitle1" Height="40" Width="600" Canvas.Left="100" Canvas.Top="120" Foreground="Red"
-               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng tác vụ">
+               FontSize="17" FontWeight="Bold" HorizontalContentAlignment="Center" Content="Nhóm chức năng bán hàng">
         </Label>
 
         <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="150" Canvas.Left="25">
