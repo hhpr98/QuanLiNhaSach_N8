@@ -183,3 +183,5 @@ C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\BanChiTietSach.baml
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\BanSach.baml
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\ThemKhachHang.g.cs
 C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\ThemKhachHang.baml
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DangKi.g.cs
+C:\Git\QuanLiNhaSach_N8\QuanLiNhaSach_N8\obj\Debug\DangKi.baml

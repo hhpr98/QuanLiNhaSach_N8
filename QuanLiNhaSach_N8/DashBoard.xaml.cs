@@ -162,5 +162,21 @@ namespace QuanLiNhaSach_N8
             var windows = new ThemKhachHang();
             windows.Show();
         }
+
+        private void BtnDangKI_Click(object sender, RoutedEventArgs e)
+        {
+            if (MainWindow.tendangnhap == "admin")
+            {
+                var windows = new DangKi();
+                windows.Show();
+            }
+            else
+            {
+                MessageBoxButton button = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Error;
+                string content = "Lỗi : Chức năng đăng kí chỉ dành cho admin";
+                MessageBox.Show(content, "Lỗi!", button, icon);
+            }
+        }
     }
 }
