@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="Danh sách khách hàng" Height="600" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        Title="Danh sách khách hàng" Height="600" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" ResizeMode="NoResize">
     <Canvas>
         <Label Name="lblTitle" Content="DANH SÁCH KHÁCH HÀNG" HorizontalContentAlignment="Center" Height="50"
                Width="400" Canvas.Top="20" Canvas.Left="200" FontSize="23" FontWeight="Bold" Foreground="Blue">

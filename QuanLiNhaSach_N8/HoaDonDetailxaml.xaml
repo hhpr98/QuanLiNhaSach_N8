@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="Hóa đơn bán hàng" Height="600" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        Title="Hóa đơn bán hàng" Height="600" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" ResizeMode="NoResize">
     <Canvas>
         <Label Name="lblTitle" Content="HÓA ĐƠN BÁN HÀNG" HorizontalContentAlignment="Center" Height="50"
                Width="300" Canvas.Top="20" Canvas.Left="250" FontSize="23" FontWeight="Bold" Foreground="Blue">
@@ -88,8 +88,8 @@
                         <Label Name="txt5" Height="40" Width="100" HorizontalContentAlignment="Left" 
                         Canvas.Top="10" Canvas.Left="480" FontSize="17" Content="{Binding DonGia}">
                         </Label>
-                        <Label Name="txt6" Height="40" Width="100" HorizontalContentAlignment="Left" 
-                        Canvas.Top="10" Canvas.Left="600" FontSize="17" Content="{Binding ThanhTien}">
+                        <Label Name="txt6" Height="40" Width="150" HorizontalContentAlignment="Left" 
+                        Canvas.Top="10" Canvas.Left="600" FontSize="17" Content="{Binding ThanhTien, StringFormat='{}#,##0 VND'}">
                         </Label>
                     </Canvas>
                 </DataTemplate>

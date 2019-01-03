@@ -27,7 +27,7 @@ namespace QuanLiNhaSach_N8
         public string maxacnhan;
         private void Lbl6_Loaded(object sender, RoutedEventArgs e)
         {
-            string[] s = new string[] { "ak5vj1", "1gj42s","2gs3xj","jkj111","admin_nb1","kkitzome1","mono118zk","kk5vvz1" };
+            string[] s = new string[] { "ak5vj1", "1gj42s","2gs3xj","jkj111","adminnb1","kkitzome1","mono118zk","kk5vvz1","axzv014a","k5xx31" };
             var k = new Random();
             var sz = s.Count();
             maxacnhan = s[k.Next(sz)];

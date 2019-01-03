@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="DashBoard" Height="600" Width="800" WindowStartupLocation="CenterScreen" Background="LightBlue" Loaded="Window_Loaded">
+        Title="DashBoard" Height="600" Width="800" WindowStartupLocation="CenterScreen" Background="LightBlue" Loaded="Window_Loaded" ResizeMode="NoResize">
     <Canvas>
 
         <Label Name="lblTitle" Height="40" Width="600" Canvas.Left="100" Canvas.Top="50"

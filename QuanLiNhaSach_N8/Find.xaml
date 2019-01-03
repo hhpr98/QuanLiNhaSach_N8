@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="Find" Height="600" Width="800" WindowStartupLocation="CenterScreen" Background="LightCyan">
+        Title="Find" Height="600" Width="800" WindowStartupLocation="CenterScreen" Background="LightCyan" ResizeMode="NoResize">
     <Canvas>
         <Label Name="lblTitle"  Content="CHỨC NĂNG TÌM KIẾM SÁCH" Height="40" Width="600" FontSize="23" FontWeight="Bold"
                HorizontalContentAlignment="Center" Canvas.Left="100" Canvas.Top="30" Foreground="Blue">

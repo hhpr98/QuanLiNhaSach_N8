@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="Đăng kí tài khoản" Height="600" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Đăng kí tài khoản" Height="600" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Canvas>
         <Label Name="lblTitle" Content="ĐĂNG KÍ TÀI KHOẢN" HorizontalContentAlignment="Center" Height="50"
                Width="400" Canvas.Top="14" Canvas.Left="138" FontSize="23" FontWeight="Bold" Foreground="Blue">
