@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLiNhaSach_N8"
         mc:Ignorable="d"
-        Title="XemTheoNgay" Height="600" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Xem theo ngày" Height="600" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Canvas>
         <Label Content="THỐNG KÊ THEO NGÀY" HorizontalContentAlignment="Center" Height="50"
                Width="300" FontSize="23" FontWeight="Bold" Foreground="Blue" Canvas.Left="212" Canvas.Top="20" ></Label>
