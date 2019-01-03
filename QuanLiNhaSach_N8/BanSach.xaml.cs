@@ -74,31 +74,39 @@ namespace QuanLiNhaSach_N8
 
         private void BtnOK_Click(object sender, RoutedEventArgs e)
         {
-            var db = new BOOKEntities();
-            // Kiểm tra khách hàng có tồn tại
-            var check_khachHang = db.KhachHangs.Find(txt1.Text);
-            if (check_khachHang==null)
+            if (txt1.Text=="")
             {
                 var btn = MessageBoxButton.OK;
                 var img = MessageBoxImage.Error;
-                var msg = "Mã khách hàng không tồn tại";
+                var msg = "Không để trống mã khách hàng";
                 MessageBox.Show(msg, "Thông báo", btn, img);
             }
             else
             {
-                // thêm hóa đơn
-                var hdToAdd = new HoaDon() {MaHoaDon=mahd,MaKhachHang=txt1.Text,MaNhanVien=manv,NgayLapHoaDon=NgayBan,TongTien=0,DiemThuong=0 };
-                db.HoaDons.Add(hdToAdd);
-                db.SaveChanges();
+                var db = new BOOKEntities();
+                // Kiểm tra khách hàng có tồn tại
+                var check_khachHang = db.KhachHangs.Find(txt1.Text);
+                if (check_khachHang == null)
+                {
+                    var btn = MessageBoxButton.OK;
+                    var img = MessageBoxImage.Error;
+                    var msg = "Mã khách hàng không tồn tại";
+                    MessageBox.Show(msg, "Thông báo", btn, img);
+                }
+                else
+                {
+                    // thêm hóa đơn
+                    var hdToAdd = new HoaDon() { MaHoaDon = mahd, MaKhachHang = txt1.Text, MaNhanVien = manv, NgayLapHoaDon = NgayBan, TongTien = 0, DiemThuong = 0 };
+                    db.HoaDons.Add(hdToAdd);
+                    db.SaveChanges();
 
-                var windows = new BanChiTietSach();
-                var mess = mahd + "+" + txt1.Text;
-                windows.Sender(mess); // gửi mã hóa đơn và mã khách hàng sang form Bán chi tiết sách
-                windows.Show();
-                this.Close();
+                    var windows = new BanChiTietSach();
+                    var mess = mahd + "+" + txt1.Text;
+                    windows.Sender(mess); // gửi mã hóa đơn và mã khách hàng sang form Bán chi tiết sách
+                    windows.Show();
+                    this.Close();
+                }
             }
-
-            
         }
 
         private void BtnCancel_Click(object sender, RoutedEventArgs e)

@@ -28,23 +28,33 @@ namespace QuanLiNhaSach_N8
         {
             var mahd = txtInput.Text;
 
-            var db = new BOOKEntities();
-
-            var hoadon = db.HoaDons.Find(mahd);
-
-            if (hoadon==null) // không tìm thấy mã hóa đơn nào
+            if (mahd=="")
             {
                 var img = MessageBoxImage.Error;
                 var btn = MessageBoxButton.OK;
-                var msg = "Không tìm thấy mã hóa đơn!";
+                var msg = "Mã hóa đơn không được để trống!";
                 MessageBox.Show(msg, "Thông báo", btn, img);
             }
-            else // có mã hóa đơn
+            else
             {
-                var windows = new HoaDonDetailxaml();
-                windows.Sender(txtInput.Text); // gửi mã hóa đơn sang form chi tiết hóa đơn
-                windows.Show();
-                //this.Close();
+                var db = new BOOKEntities();
+
+                var hoadon = db.HoaDons.Find(mahd);
+
+                if (hoadon == null) // không tìm thấy mã hóa đơn nào
+                {
+                    var img = MessageBoxImage.Error;
+                    var btn = MessageBoxButton.OK;
+                    var msg = "Không tìm thấy mã hóa đơn!";
+                    MessageBox.Show(msg, "Thông báo", btn, img);
+                }
+                else // có mã hóa đơn
+                {
+                    var windows = new HoaDonDetailxaml();
+                    windows.Sender(txtInput.Text); // gửi mã hóa đơn sang form chi tiết hóa đơn
+                    windows.Show();
+                    //this.Close();
+                }
             }
         }
 

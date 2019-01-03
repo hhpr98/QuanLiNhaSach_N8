@@ -64,6 +64,7 @@ namespace QuanLiNhaSach_N8
 
                 var name = txt1.Text;
                 bool flags = true; // không có tên nhân viên
+                bool flag2 = false; // Tên đăng nhập chưa tồn tại
                 var manv = "";
                 
                 foreach (var index in db.NhanViens)
@@ -75,11 +76,26 @@ namespace QuanLiNhaSach_N8
                     }
                 }
 
+                foreach (var index in db.TaiKhoans)
+                {
+                    if (index.TenDangNhap==txt2.Text)
+                    {
+                        flag2 = true; // tên đăng nhập đã tồn tại
+                    }
+                }
+
                 if (flags)
                 {
                     var btn = MessageBoxButton.OK;
                     var img = MessageBoxImage.Error;
                     var msg = "Chỉ nhân viên mới được đăng kí tài khoản, vui lòng nhập đúng tên nhân viên";
+                    MessageBox.Show(msg, "Thông báo", btn, img);
+                }
+                else if (flag2)
+                {
+                    var btn = MessageBoxButton.OK;
+                    var img = MessageBoxImage.Error;
+                    var msg = "Tồn tại tên đăng nhập, vui lòng chọn tên đăng nhập khác";
                     MessageBox.Show(msg, "Thông báo", btn, img);
                 }
                 else
