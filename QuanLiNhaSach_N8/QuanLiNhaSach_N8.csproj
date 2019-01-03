@@ -146,6 +146,9 @@
     <Compile Include="TaiKhoan.cs">
       <DependentUpon>BookModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="ThemKhachHang.xaml.cs">
+      <DependentUpon>ThemKhachHang.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ThemSach.xaml.cs">
       <DependentUpon>ThemSach.xaml</DependentUpon>
     </Compile>
@@ -225,6 +228,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Result.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ThemKhachHang.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -330,6 +337,12 @@
       <DependentUpon>BookModel.edmx</DependentUpon>
       <LastGenOutput>BookModel.cs</LastGenOutput>
     </Content>
+    <Resource Include="iconFeature\DangKi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="iconFeature\ThemKhachHang.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="iconFeature\BanSach.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

@@ -156,5 +156,11 @@ namespace QuanLiNhaSach_N8
         {
             lblTitle.Content = "Xin chào " + MainWindow.tendangnhap + ", mời chọn chức năng";
         }
+
+        private void BtnThemKhachHang_Click(object sender, RoutedEventArgs e)
+        {
+            var windows = new ThemKhachHang();
+            windows.Show();
+        }
     }
 }

@@ -19,16 +19,6 @@
         <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="150" Canvas.Left="25">
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
-                    <Image Name="imgBanSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
-                           Source="/iconFeature/BanSach.png">
-                    </Image>
-                    <Button Name="btnBanSach" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
-                            Click="BtnBanSach_Click">Bán sách
-                    </Button>
-                </Canvas>
-            </Border>
-            <Border BorderBrush="Black" BorderThickness="1">
-                <Canvas Background="White" Width="148">
                     <Image Name="imgTimKiem" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
                            Source="/iconFeature/TimKiem.png">
                     </Image>
@@ -37,16 +27,7 @@
                     </Button>
                 </Canvas>
             </Border>
-            <Border BorderBrush="Black" BorderThickness="1">
-                <Canvas Background="White" Width="148">
-                    <Image Name="imgHoaDon" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
-                           Source="/iconFeature/HoaDon.png">
-                    </Image>
-                    <Button Name="btnHoaDon" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
-                            Click="BtnHoaDon_Click">Xem hóa đơn
-                    </Button>
-                </Canvas>
-            </Border>
+            
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
                     <Image Name="imgNhapSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
@@ -64,6 +45,26 @@
                     </Image>
                     <Button Name="btnXemPhieuNhapSach" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
                             Click="BtnXemPhieuNhapSach_Click">Xem phiếu nhập
+                    </Button>
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                    <Image Name="imgBanSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/BanSach.png">
+                    </Image>
+                    <Button Name="btnBanSach" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
+                            Click="BtnBanSach_Click">Bán sách
+                    </Button>
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
+                    <Image Name="imgHoaDon" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/HoaDon.png">
+                    </Image>
+                    <Button Name="btnHoaDon" Height="25" Width="88" Canvas.Top="50" Canvas.Left="20"
+                            Click="BtnHoaDon_Click">Xem hóa đơn
                     </Button>
                 </Canvas>
             </Border>
@@ -133,6 +134,11 @@
         <UniformGrid Columns="5" Width="750" Height="100" Canvas.Top="450" Canvas.Left="25">
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
+                    
+                </Canvas>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Canvas Background="White" Width="148">
                     <Image Name="imgThemSach" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
                            Source="/iconFeature/ThemSach.png">
                     </Image>
@@ -143,11 +149,12 @@
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
-                    
-                </Canvas>
-            </Border>
-            <Border BorderBrush="Black" BorderThickness="1">
-                <Canvas Background="White" Width="148">
+                    <Image Name="imgThemKhachHang" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/ThemKhachHang.png">
+                    </Image>
+                    <Button Name="btnThemKhachHang" Height="25" Width="68" Canvas.Top="50" Canvas.Left="30"
+                            Click="BtnThemKhachHang_Click">Thêm KH
+                    </Button>
                 </Canvas>
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
