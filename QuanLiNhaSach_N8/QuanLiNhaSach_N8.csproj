@@ -344,6 +344,9 @@
       <DependentUpon>BookModel.edmx</DependentUpon>
       <LastGenOutput>BookModel.cs</LastGenOutput>
     </Content>
+    <Resource Include="iconFeature\DangXuat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="iconFeature\DangKi.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

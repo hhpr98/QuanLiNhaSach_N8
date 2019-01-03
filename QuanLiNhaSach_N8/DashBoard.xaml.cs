@@ -178,5 +178,12 @@ namespace QuanLiNhaSach_N8
                 MessageBox.Show(content, "Lỗi!", button, icon);
             }
         }
+
+        private void BtnDangXuat_Click(object sender, RoutedEventArgs e)
+        {
+            var windows = new MainWindow();
+            windows.Show();
+            this.Close();
+        }
     }
 }

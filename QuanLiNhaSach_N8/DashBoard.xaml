@@ -164,6 +164,12 @@
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
                 <Canvas Background="White" Width="148">
+                    <Image Name="imgDangXuat" Height="50" Width="50" Canvas.Top="10" Canvas.Left="49"
+                           Source="/iconFeature/DangXuat.png">
+                    </Image>
+                    <Button Name="btnDangXuat" Height="25" Width="68" Canvas.Top="50" Canvas.Left="30"
+                            Click="BtnDangXuat_Click">Đăng xuất
+                    </Button>
                 </Canvas>
             </Border>
             <Border BorderBrush="Black" BorderThickness="1">
