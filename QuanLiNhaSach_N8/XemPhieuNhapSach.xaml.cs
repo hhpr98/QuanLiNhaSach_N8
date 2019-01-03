@@ -28,23 +28,33 @@ namespace QuanLiNhaSach_N8
         {
             var mapn = txtInput.Text;
 
-            var db = new BOOKEntities();
-
-            var hoadon = db.PhieuNhapSaches.Find(mapn);
-
-            if (hoadon == null) // không tìm thấy mã phiếu nhập nào
+            if  (mapn=="")
             {
                 var img = MessageBoxImage.Error;
                 var btn = MessageBoxButton.OK;
-                var msg = "Không tìm thấy mã phiếu nhập!";
+                var msg = "Mã phiếu nhập không được để trống!";
                 MessageBox.Show(msg, "Thông báo", btn, img);
             }
-            else // có mã phiếu nhập
+            else
             {
-                var windows = new PhieuNhapSachDetail();
-                windows.Sender(txtInput.Text); // gửi mã phiếu nhập sang form chi tiết phiếu nhập
-                windows.Show();
-                //this.Close();
+                var db = new BOOKEntities();
+
+                var hoadon = db.PhieuNhapSaches.Find(mapn);
+
+                if (hoadon == null) // không tìm thấy mã phiếu nhập nào
+                {
+                    var img = MessageBoxImage.Error;
+                    var btn = MessageBoxButton.OK;
+                    var msg = "Không tìm thấy mã phiếu nhập!";
+                    MessageBox.Show(msg, "Thông báo", btn, img);
+                }
+                else // có mã phiếu nhập
+                {
+                    var windows = new PhieuNhapSachDetail();
+                    windows.Sender(txtInput.Text); // gửi mã phiếu nhập sang form chi tiết phiếu nhập
+                    windows.Show();
+                    //this.Close();
+                }
             }
         }
 
